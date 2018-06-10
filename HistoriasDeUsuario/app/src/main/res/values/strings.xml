@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Historias De Usuario</string>
+    <string name="empty"> </string>
+    <string name="title_sign_in">Ingreso</string>
+    <string name="your_email">Correo</string>
+    <string name="password">Password</string>
+    <string name="password_confirmation">Confirmación de password</string>
+    <string name="registry">Registro</string>
+    <string name="login_button">Login</string>
+    <string name="your_name">Nombre</string>
+    <string name="last_name">Apellido</string>
+    <string name="sign_up">Registro</string>
+    <string name="sign_up_button">Registrarse</string>
+    <string name="historias_de_usuario">Historias de usuario</string>
+    <string name="menu">..::MENU::..</string>
+    <string name="add_project">Agregar proyecto</string>
+    <string name="delete_project">Borrar proyecto</string>
+    <string name="edit_project">Editar Proyecto</string>
+    <string name="view_projects">Ver Proyectos</string>
+    <string name="log_out">Salir</string>
+    <string name="project_type">Tipo de proyecto</string>
+    <string name="project_name">Nombre del proyecto</string>
+    <string name="start_date">Fecha inicio</string>
+    <string name="end_date">Fecha fin</string>
+
+
+</resources>

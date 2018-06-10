@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:id="@+id/rlHeader"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:visibility="visible">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/edit_project"
+            android:textColor="@color/headerColor"
+            android:textSize="@dimen/headerTextSize" />
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.0"
+        android:fillViewport="true">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:id="@+id/llFields"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/system_margin_end"
+                    android:layout_marginLeft="@dimen/system_margin_start"
+                    android:layout_marginRight="@dimen/system_margin_end"
+                    android:layout_marginStart="@dimen/system_margin_start"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/project_name"
+                    android:textColor="@color/textAndBackGroundColor"
+                    android:textSize="@dimen/mediumViewTextSize" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/acProjectName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/system_margin_end"
+                    android:layout_marginLeft="@dimen/system_margin_start"
+                    android:layout_marginRight="@dimen/system_margin_end"
+                    android:layout_marginStart="@dimen/system_margin_start"
+                    android:background="@drawable/custom_edit_text_style"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:inputType="none"
+                    android:maxLength="50"
+                    android:maxLines="1"
+                    android:hint="@string/project_name"
+                    android:paddingBottom="6dp"
+                    android:paddingTop="6dp"
+                    android:textColor="@color/commonTextColor"
+                    android:textColorHint="@color/commonTextColor"
+                    android:textSize="@dimen/mediumEditTextSize" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/system_margin_end"
+                    android:layout_marginLeft="@dimen/system_margin_start"
+                    android:layout_marginRight="@dimen/system_margin_end"
+                    android:layout_marginStart="@dimen/system_margin_start"
+                    android:text="@string/project_type"
+                    android:textColor="@color/textAndBackGroundColor"
+                    android:textSize="@dimen/mediumViewTextSize" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/acType"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/system_margin_end"
+                    android:layout_marginLeft="@dimen/system_margin_start"
+                    android:layout_marginRight="@dimen/system_margin_end"
+                    android:layout_marginStart="@dimen/system_margin_start"
+                    android:background="@drawable/custom_edit_text_style"
+                    android:maxLength="50"
+                    android:maxLines="1"
+                    android:hint="@string/project_type"
+                    android:paddingBottom="6dp"
+                    android:paddingTop="6dp"
+                    android:textColor="@color/commonTextColor"
+                    android:textColorHint="@color/commonTextColor"
+                    android:textSize="@dimen/mediumEditTextSize" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/system_margin_end"
+                    android:layout_marginLeft="@dimen/system_margin_start"
+                    android:layout_marginRight="@dimen/system_margin_end"
+                    android:layout_marginStart="@dimen/system_margin_start"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/start_date"
+                    android:textColor="@color/textAndBackGroundColor"
+                    android:textSize="@dimen/mediumViewTextSize" />
+
+                <EditText
+                    android:id="@+id/etStartDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/system_margin_end"
+                    android:layout_marginLeft="@dimen/system_margin_start"
+                    android:layout_marginRight="@dimen/system_margin_end"
+                    android:layout_marginStart="@dimen/system_margin_start"
+                    android:background="@drawable/custom_edit_text_style"
+                    android:hint="@string/start_date"
+                    android:focusableInTouchMode="false"
+                    android:maxLength="50"
+                    android:maxLines="1"
+                    android:drawableEnd="@mipmap/arrow"
+                    android:drawableRight="@mipmap/arrow"
+                    android:paddingBottom="6dp"
+                    android:paddingTop="6dp"
+                    android:textColor="@color/commonTextColor"
+                    android:textColorHint="@color/commonTextColor"
+                    android:textSize="@dimen/mediumEditTextSize" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/system_margin_end"
+                    android:layout_marginLeft="@dimen/system_margin_start"
+                    android:layout_marginRight="@dimen/system_margin_end"
+                    android:layout_marginStart="@dimen/system_margin_start"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/end_date"
+                    android:textColor="@color/textAndBackGroundColor"
+                    android:textSize="@dimen/mediumViewTextSize" />
+
+
+                <EditText
+                    android:id="@+id/etEndDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/system_margin_end"
+                    android:layout_marginLeft="@dimen/system_margin_start"
+                    android:layout_marginRight="@dimen/system_margin_end"
+                    android:layout_marginStart="@dimen/system_margin_start"
+                    android:background="@drawable/custom_edit_text_style"
+                    android:hint="@string/end_date"
+                    android:focusableInTouchMode="false"
+                    android:maxLength="50"
+                    android:maxLines="1"
+                    android:drawableEnd="@mipmap/arrow"
+                    android:drawableRight="@mipmap/arrow"
+                    android:paddingBottom="6dp"
+                    android:paddingTop="6dp"
+                    android:textColor="@color/commonTextColor"
+                    android:textColorHint="@color/commonTextColor"
+                    android:textSize="@dimen/mediumEditTextSize" />
+
+            </LinearLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/llFields"
+                android:adjustViewBounds="true"
+                android:gravity="bottom"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:id="@+id/btnEditProject"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="15dp"
+                        android:layout_marginEnd="15dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/custom_border_login"
+                        android:gravity="center"
+                        android:paddingEnd="15dp"
+                        android:paddingLeft="15dp"
+                        android:paddingRight="15dp"
+                        android:paddingStart="15dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="false"
+                            android:layout_centerHorizontal="true"
+                            android:foregroundGravity="center"
+                            android:gravity="center"
+                            android:tag="1"
+                            android:text="@string/edit_project"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="@color/mainButtonColor"
+                            android:textSize="@dimen/mediumButtonTextSize"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

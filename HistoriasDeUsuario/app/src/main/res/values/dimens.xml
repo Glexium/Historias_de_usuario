@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="system_margin_end">30dp</dimen>
+    <dimen name="system_margin_start">30dp</dimen>
+</resources>

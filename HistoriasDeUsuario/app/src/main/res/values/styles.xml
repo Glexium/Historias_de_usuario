@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Base application theme. -->
+
+    <style name="MyCustomBetterPickersDialogs" parent="BetterPickersRadialTimePickerDialog.PrimaryColor">
+        <item name="bpPreHeaderBackgroundColor">@color/black</item>
+        <item name="bpHeaderBackgroundColor">@color/white</item>
+        <item name="bpHeaderSelectedTextColor">@color/black</item>
+        <item name="bpHeaderUnselectedTextColor">@color/black</item>
+        <item name="bpDisabledDayTextColor">@color/black</item>
+
+        <item name="bpBodyBackgroundColor">@color/white</item>
+        <item name="bpBodySelectedTextColor">@color/black</item>
+        <item name="bpBodyUnselectedTextColor">@color/black</item>
+
+        <item name="bpRadialBackgroundColor">@color/white</item>
+        <item name="bpRadialTextColor">@color/black</item>
+        <item name="bpRadialPointerColor">@color/black</item>
+
+        <item name="bpButtonsBackgroundColor">@color/white</item>
+        <item name="bpButtonsTextColor">@color/black</item>
+    </style>
+
+
+</resources>

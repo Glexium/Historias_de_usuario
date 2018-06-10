@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--TextView-->
+    <dimen name="headerTextSize">20sp</dimen>
+    <dimen name="mediumViewTextSize">16sp</dimen>
+    <!--EditText-->
+    <dimen name="mediumEditTextSize">17sp</dimen>
+    <!--Buttons-->
+    <dimen name="mediumButtonTextSize">18sp</dimen>
+</resources>

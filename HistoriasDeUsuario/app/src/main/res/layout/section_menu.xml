@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/historias_de_usuario"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_weight="1"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="15dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/menu"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:id="@+id/btnAddProject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/custom_border_login"
+            android:gravity="center"
+            android:paddingEnd="15dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingStart="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="false"
+                android:layout_centerHorizontal="true"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:tag="1"
+                android:text="@string/add_project"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/mainButtonColor"
+                android:textSize="@dimen/mediumButtonTextSize"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/btnDeleteProject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/custom_border_login"
+            android:gravity="center"
+            android:paddingEnd="15dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingStart="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="false"
+                android:layout_centerHorizontal="true"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:tag="1"
+                android:text="@string/delete_project"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/mainButtonColor"
+                android:textSize="@dimen/mediumButtonTextSize"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/btnEditProject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/custom_border_login"
+            android:gravity="center"
+            android:paddingEnd="15dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingStart="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="false"
+                android:layout_centerHorizontal="true"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:tag="1"
+                android:text="@string/edit_project"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/mainButtonColor"
+                android:textSize="@dimen/mediumButtonTextSize"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/btnViewProjects"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/custom_border_login"
+            android:gravity="center"
+            android:paddingEnd="15dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingStart="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="false"
+                android:layout_centerHorizontal="true"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:tag="1"
+                android:text="@string/view_projects"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/mainButtonColor"
+                android:textSize="@dimen/mediumButtonTextSize"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/btnLogOut"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/custom_border_login"
+            android:gravity="center"
+            android:paddingEnd="15dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingStart="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="false"
+                android:layout_centerHorizontal="true"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:tag="1"
+                android:text="@string/log_out"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/mainButtonColor"
+                android:textSize="@dimen/mediumButtonTextSize"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>
